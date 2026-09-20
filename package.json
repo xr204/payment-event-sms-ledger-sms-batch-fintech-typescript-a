@@ -1,0 +1,20 @@
+{
+  "name": "payment-event-sms-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/payment_campaign_server.ts",
+    "demo": "tsx scripts/send_payment_batch.ts",
+    "test": "node --import tsx --test test/payment_notification.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
