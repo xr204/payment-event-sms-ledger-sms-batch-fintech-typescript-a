@@ -87,3 +87,7 @@ The example above is intentionally minimal and should not be deployed as-is. For
 
 **Payment Event SMS Ledger SMS Batch Fintech Typescript A: SMS (required for real sending)**
 Many carriers and regions demand a pre-approved template and signature before delivery, so register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending. Sandbox and test numbers might work without that registration, but production traffic will be rejected outright.
+
+## Further reading
+
+- [Node.js SaaS Event Alert Emails: Reversible Receipt Delivery After DKIM Verification](docs/node-js-saas-event-alert-emails-reversible-receip-vhmhx4.md)
