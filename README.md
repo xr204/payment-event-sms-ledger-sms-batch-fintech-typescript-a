@@ -90,4 +90,5 @@ Many carriers and regions demand a pre-approved template and signature before de
 
 ## Further reading
 
+- [Go Backend for React Native Mobile SMS OTP: Auditable Autofill and Abuse Controls](docs/go-backend-for-react-native-mobile-sms-otp-audita-joadqy.md)
 - [Node.js SaaS Event Alert Emails: Reversible Receipt Delivery After DKIM Verification](docs/node-js-saas-event-alert-emails-reversible-receip-vhmhx4.md)
